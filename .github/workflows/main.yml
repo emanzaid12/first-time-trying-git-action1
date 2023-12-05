@@ -8,8 +8,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: 'Testing Github action'
-        run: pwd
-      
-      - name: 'Testing Printing'
-        run: echo Esraa  
+      - name: 'Printing folder contents'
+        run: ls  
